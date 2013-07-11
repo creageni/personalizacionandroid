@@ -1,0 +1,26 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name= "CustomActionBar" parent="@android:style/Widget.ActionBar">
+        <item name="android:background">
+            @drawable/capas_action_bar
+            </item>
+        
+    </style>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+        <item name="android:actionBarStyle">@style/CustomActionBar</item>
+    </style>
+    
+    <style name="CustomEditText"
+        parent="@android:style/Widget.EditText"
+        >
+        
+        
+    </style>
+
+</resources>
